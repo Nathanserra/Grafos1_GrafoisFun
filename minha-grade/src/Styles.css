@@ -12,3 +12,22 @@
   color: black;
   margin-top: 20px;
 }
+
+.subtitle {
+  padding: 10px;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.inputForm input {
+  margin-bottom: 10px;
+  border-style: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ccc;
+}
