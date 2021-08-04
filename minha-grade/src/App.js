@@ -1,8 +1,15 @@
-import './Global.css';
+import './Styles.css';
+import React from 'react';
 
 function App() {
+
   return (
-    <h1>Minha Grade</h1>
+    <div className="header">
+      <h1>Graphs is fun!</h1>
+      <div>Este projeto serve para mostrar um pouco das muitas funcionalidades de grafos
+        e também para mostrar o quão divertido "brincar" com grafos pode ser.
+      </div>
+    </div>
   );
 }
 

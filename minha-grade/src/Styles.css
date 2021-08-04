@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #808080;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  margin-top: 20px;
+}
