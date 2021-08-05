@@ -1,5 +1,6 @@
 import './Styles.css';
 import React from 'react';
+import { Stage, Layer, Arrow, Circle, Text } from "react-konva";
 
 function App() {
   const graphInfoForm = () => (
@@ -14,6 +15,17 @@ function App() {
       />
     </div>
   )
+
+  const renderGraph = () => (
+    <div className="graph-container">
+      <Stage width={900} height={900} className="graphView">
+        {/* <Layer>
+          {renderEdges(graph_matrix)}
+          {renderVertex(graph_matrix)}
+        </Layer> */}
+      </Stage>
+    </div>
+  );
 
   return (
     <div className="header">
