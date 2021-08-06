@@ -5,14 +5,31 @@ import { Stage, Layer, Arrow, Circle, Text } from "react-konva";
 function App() {
   const graphInfoForm = () => (
     <div className="inputForm">
-      <input
-        type="text"
-        placeholder="Número de Vértices"
-      />
-      <input
-        type="text"
-        placeholder="Número de Arestas"
-      />
+      <div>
+        <h3>Qual o tamanho do seu grafo?</h3>
+        <input
+          type="text"
+          placeholder="Número de Vértices"
+        />
+        <button>novo</button>  
+      </div>
+      <div>
+        <h3>Adicione as arestas</h3>
+        <input className="aresta"/>
+        <input className="aresta"/>
+        <button>adicionar</button>  
+      </div>
+    </div>
+  )
+
+  const graphSearch = () => (
+    <div className="inputSearch">
+      <div>
+        <h3>Ache o menor caminho!!!</h3>
+        <input className="aresta"/>
+        <input className="aresta"/>
+        <button>procurar</button>  
+      </div>
     </div>
   )
 
@@ -28,12 +45,12 @@ function App() {
   );
 
   return (
-    <div className="header">
-      <h1>Graphs is fun!</h1>
-      <div className="subtitle">Este projeto serve para mostrar um pouco das muitas funcionalidades de grafos
-        e também para mostrar o quão divertido "brincar" com grafos pode ser.
+    <div>
+      <div className="header">
+        <h1>Graphs is fun!</h1>
       </div>
-      <div>{graphInfoForm()}</div>
+      {graphInfoForm()}
+      {graphSearch()}
     </div>
   );
 }

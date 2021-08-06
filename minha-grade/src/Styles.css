@@ -2,34 +2,108 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #808080;
+  background: #6BAECB;
 }
 
 .header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: black;
+  color: white;
   margin-top: 20px;
-}
-
-.subtitle {
-  padding: 10px;
 }
 
 .inputForm {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  margin-top: 20px;
+  width: 354px;
+  height: 330px;
+  left: 24px;
+  top: 161px;
+
+  background: #6BAECB;
 }
 
 .inputForm input {
-  margin-bottom: 10px;
-  border-style: none;
-  padding: 10px;
-  font-size: 16px;
-  background-color: #ccc;
+  width: 125px;
+  height: 28px;
+
+  background: #FFFFFF;
+}
+
+.inputForm button {
+  width: 70px;
+  height: 28px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.inputForm h3 {
+  width: 280px;
+  height: 32px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.017em;
+
+  color: #FFFFFF;
+
+}
+
+.inputForm .aresta{
+  width: 46px;
+  height: 28px;
+
+  background: #FFFFFF;
+}
+
+.inputSearch{
+  width: 354px;
+  height: 330px;
+
+
+  background: #6BAECB;
+}
+
+.inputSearch button{
+  width: 70px;
+  height: 28px;
+
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.inputSearch input{
+  width: 46px;
+  height: 28px;
+
+  background: #FFFFFF;
+}
+
+.inputSearch h3{
+  width: 280px;
+  height: 32px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.017em;
+
+  color: #FFFFFF;
 }
 
 .graph-container {
